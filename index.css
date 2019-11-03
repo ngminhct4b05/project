@@ -6,8 +6,11 @@
     text-align: center;
     font-size: 30;
 }
-.dropdown {
+.dropdown-content {
     color: mistyrose;
     text-align: center;
-    font-size: 24
+    font-size: 24;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
