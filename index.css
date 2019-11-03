@@ -4,20 +4,10 @@
 .heading {
     color: rgb(183, 201, 201);
     text-align: center;
-<<<<<<< HEAD
-    font-size: 24;
-}       
-.menu {
-    color: rgb(118, 194, 194);
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 18;
-=======
     font-size: 30;
 }
 .dropdown {
     color: mistyrose;
     text-align: center;
     font-size: 24
->>>>>>> 18be8a5552633106af6bc0f17deb0467d3b1bb6b
 }
