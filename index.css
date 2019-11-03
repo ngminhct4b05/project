@@ -2,4 +2,10 @@
     color: rgb(183, 201, 201);
     text-align: center;
     font-size: 24;
+}       
+.menu {
+    color: darkslategray;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 18;
 }
