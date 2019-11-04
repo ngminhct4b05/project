@@ -5,9 +5,18 @@
     text-align: center;
     font-size: 30;
 }
+<<<<<<< HEAD
 #menu{
     color: darkslategray;
     display: flex;
     flex-direction:row ;
+=======
+.dropdown-content {
+    color: mistyrose;
+    text-align: center;
+    font-size: 24;
+    width: 100%;
+    display: flex;
+>>>>>>> a80f894c8361b8464699ef244d9e9b3b22ccfdca
     justify-content: space-around;
 }
