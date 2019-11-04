@@ -1,11 +1,13 @@
-
+.header {
+    background: rgb(42, 42, 43)
+}
 .heading {
     color: rgb(183, 201, 201);
     background: rgb(13, 13, 31);
     text-align: center;
     font-size: 30;
 }
-<<<<<<< HEAD
+
 #menu{
     color: darkslategray;
     display: flex;
@@ -17,6 +19,71 @@
     font-size: 24;
     width: 100%;
     display: flex;
->>>>>>> a80f894c8361b8464699ef244d9e9b3b22ccfdca
     justify-content: space-around;
 }
+=======
+#dropdown {
+    color: white;
+    font-size: 20px;
+    display:flex; 
+    flex-direction: row; 
+    justify-content: center;
+    text-align: center;
+}
+.dropdown1 {
+    background-color: lightgrey;
+    width: 120px;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+  
+}
+.dropdown2 {
+    background-color: lightgrey;
+    width: 120px;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+  
+  }
+.dropdown3 {
+    background-color: lightgrey;
+    width: 120px;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+  
+  }
+.dropdown4 {
+    background-color: lightgrey;
+    width: 120px;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+  
+  }
+.dropdown5 {
+    background-color: lightgrey;
+    width: 120px;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+  
+  }
+.dropdown6 {
+    background-color: lightgrey;
+    width: 120px;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+  
+  }
+.dropdown7 {
+    background-color: lightgrey;
+    width: 120px;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+  
+  }
+
