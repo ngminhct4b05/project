@@ -1,13 +1,73 @@
 .header {
-    background: rgb(13, 13, 31)
+    background: rgb(42, 42, 43)
 }
 .heading {
     color: rgb(183, 201, 201);
     text-align: center;
     font-size: 30;
 }
-.dropdown {
-    color: mistyrose;
+#dropdown {
+    color: white;
+    font-size: 20px;
+    display:flex; 
+    flex-direction: row; 
+    justify-content: center;
     text-align: center;
-    font-size: 24
 }
+.dropdown1 {
+    background-color: lightgrey;
+    width: 120px;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+  
+}
+.dropdown2 {
+    background-color: lightgrey;
+    width: 120px;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+  
+  }
+.dropdown3 {
+    background-color: lightgrey;
+    width: 120px;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+  
+  }
+.dropdown4 {
+    background-color: lightgrey;
+    width: 120px;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+  
+  }
+.dropdown5 {
+    background-color: lightgrey;
+    width: 120px;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+  
+  }
+.dropdown6 {
+    background-color: lightgrey;
+    width: 120px;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+  
+  }
+.dropdown7 {
+    background-color: lightgrey;
+    width: 120px;
+    border: 1px;
+    padding: 1px;
+    margin: 1px;
+  
+  }
+  
