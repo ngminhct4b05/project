@@ -1,89 +1,106 @@
 .header {
-    background: rgb(42, 42, 43)
+  background: rgb(42, 42, 43)
 }
 .heading {
-    color: rgb(183, 201, 201);
-    background: rgb(13, 13, 31);
-    text-align: center;
-    font-size: 30;
+  color: rgb(183, 201, 201);
+  text-align: center;
+  font-size: 30;
 }
-
-#menu{
-    color: darkslategray;
-    display: flex;
-    flex-direction:row ;
-=======
-.dropdown-content {
-    color: mistyrose;
-    text-align: center;
-    font-size: 24;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-=======
 #dropdown {
-    color: white;
-    font-size: 20px;
-    display:flex; 
-    flex-direction: row; 
-    justify-content: center;
-    text-align: center;
+  color: white;
+  font-size: 20px;
+  display:flex; 
+  flex-direction: row; 
+  justify-content: center;
+  text-align: center;
 }
 .dropdown1 {
-    background-color: lightgrey;
-    width: 120px;
-    border: 1px;
-    padding: 1px;
-    margin: 1px;
-  
+  background-color: lightgrey;
+  width: 120px;
+  border: 1px;
+  padding: 1px;
+  margin: 1px;
+
 }
 .dropdown2 {
-    background-color: lightgrey;
-    width: 120px;
-    border: 1px;
-    padding: 1px;
-    margin: 1px;
-  
-  }
-.dropdown3 {
-    background-color: lightgrey;
-    width: 120px;
-    border: 1px;
-    padding: 1px;
-    margin: 1px;
-  
-  }
-.dropdown4 {
-    background-color: lightgrey;
-    width: 120px;
-    border: 1px;
-    padding: 1px;
-    margin: 1px;
-  
-  }
-.dropdown5 {
-    background-color: lightgrey;
-    width: 120px;
-    border: 1px;
-    padding: 1px;
-    margin: 1px;
-  
-  }
-.dropdown6 {
-    background-color: lightgrey;
-    width: 120px;
-    border: 1px;
-    padding: 1px;
-    margin: 1px;
-  
-  }
-.dropdown7 {
-    background-color: lightgrey;
-    width: 120px;
-    border: 1px;
-    padding: 1px;
-    margin: 1px;
-  
-  }
+  background-color: lightgrey;
+  width: 120px;
+  border: 1px;
+  padding: 1px;
+  margin: 1px;
 
+}
+.dropdown3 {
+  background-color: lightgrey;
+  width: 120px;
+  border: 1px;
+  padding: 1px;
+  margin: 1px;
+
+}
+.dropdown4 {
+  background-color: lightgrey;
+  width: 120px;
+  border: 1px;
+  padding: 1px;
+  margin: 1px;
+
+}
+.dropdown5 {
+  background-color: lightgrey;
+  width: 120px;
+  border: 1px;
+  padding: 1px;
+  margin: 1px;
+
+}
+.dropdown6 {
+  background-color: lightgrey;
+  width: 120px;
+  border: 1px;
+  padding: 1px;
+  margin: 1px;
+
+}
+.dropdown7 {
+  background-color: lightgrey;
+  width: 120px;
+  border: 1px;
+  padding: 1px;
+  margin: 1px;
+
+}#Phim{
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+}
+.phim1{
+  background-color: blueviolet;
+  width: 150px;
+  border: blue 1px;
+  padding: 100px;
+  margin: 1px;
+}
+.phim2{
+  background-color: blueviolet;
+  width: 150px;
+  border: blue 1px;
+  padding: 100px;
+  margin: 1px;
+}
+.phim3{
+  background-color: blueviolet;
+  width: 150px;
+  border: blue 1px;
+  padding: 100px;
+  margin: 1px;
+}
+.phim4{
+  background-color: blueviolet;
+  width: 150px;
+  border: blue 1px;
+  padding: 100px;
+  margin: 1px;
+}
