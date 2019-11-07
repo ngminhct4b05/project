@@ -1,7 +1,6 @@
 .header {
   background: rgb(42, 42, 43);
   font-style: italic;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
 }
 .heading {
   color: rgb(183, 201, 201);
@@ -95,6 +94,7 @@
 }
 .phim2{
   background-color: rgb(45, 39, 51);
+  font-family: cursive;
   width: 150px;
   border: blue 1px;
   padding: 100px;
@@ -102,6 +102,7 @@
 }
 .phim3{
   background-color: rgb(45, 39, 51);
+  font-family: cursive;
   width: 150px;
   border: blue 1px;
   padding: 100px;
@@ -109,6 +110,7 @@
 }
 .phim4{
   background-color: rgb(45, 39, 51);
+  font-family: cursive;
   width: 150px;
   border: blue 1px;
   padding: 100px;
