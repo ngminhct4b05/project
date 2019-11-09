@@ -85,7 +85,7 @@
   justify-content: space-around;
 }
 .phim1{
-  background-color:rgb(255, 255, 219);
+  background-color: rgb(3, 3, 3);
   font-family: cursive;;
   width: 150px;
   border: blue 1px;
@@ -93,7 +93,7 @@
   margin: 1px;
 }
 .phim2{
-  background-color:rgb(255, 255, 219);
+  background-color:rgb(3, 3, 3);
   font-family: cursive;
   width: 150px;
   border: blue 1px;
@@ -101,7 +101,7 @@
   margin: 1px;
 }
 .phim3{
-  background-color: rgb(255, 255, 219);
+  background-color: rgb(3, 3, 3);
   font-family: cursive;
   width: 150px;
   border: blue 1px;
@@ -109,7 +109,7 @@
   margin: 1px;
 }
 .phim4{
-  background-color:rgb(255, 255, 219);
+  background-color:rgb(3, 3, 3);
   font-family: cursive;
   width: 150px;
   border: blue 1px;
