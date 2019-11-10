@@ -1,5 +1,5 @@
 .header {
-  background: rgb(42, 42, 43);
+  background: rgb(255, 255, 219);
   font-style: italic;
 }
 .heading {
@@ -77,16 +77,21 @@
   padding: 1px;
   margin: 1px;
 
+<<<<<<< HEAD
 }
 #Phim{
   background-color: rgb(104, 104, 158);
+=======
+}#Phim{
+  background-color: rgb(243, 242, 164);
+>>>>>>> 7f31f4dc25e33b788d6a5fb1586e04ac5cac2230
   display: flex;
   flex-direction: row;
   text-align: center;
   justify-content: space-around;
 }
 .phim1{
-  background-color: rgb(45, 39, 51);
+  background-color: rgb(3, 3, 3);
   font-family: cursive;;
   width: 150px;
   border: blue 1px;
@@ -95,7 +100,7 @@
   text-align: center;
 }
 .phim2{
-  background-color: rgb(45, 39, 51);
+  background-color:rgb(3, 3, 3);
   font-family: cursive;
   width: 150px;
   border: blue 1px;
@@ -105,7 +110,7 @@
 
 }
 .phim3{
-  background-color: rgb(45, 39, 51);
+  background-color: rgb(3, 3, 3);
   font-family: cursive;
   width: 150px;
   border: blue 1px;
@@ -113,7 +118,7 @@
   margin: 1px;
 }
 .phim4{
-  background-color: rgb(45, 39, 51);
+  background-color:rgb(3, 3, 3);
   font-family: cursive;
   width: 150px;
   border: blue 1px;
