@@ -15,76 +15,17 @@
   justify-content: center;
   text-align: center;
 }
-.dropdown1 {
+.dropdown {
   background-color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
   width: 120px;
   border: 1px;
   padding: 1px;
-  margin: 1px;
+  margin: 0.5px;
 
-}
-.dropdown2 {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  width: 120px;
-  border: 1px;
-  padding: 1px;
-  margin: 1px;
-
-}
-.dropdown3 {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  width: 120px;
-  border: 1px;
-  padding: 1px;
-  margin: 1px;
-
-}
-.dropdown4 {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  width: 120px;
-  border: 1px;
-  padding: 1px;
-  margin: 1px;
-
-}
-.dropdown5 {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  width: 120px;
-  border: 1px;
-  padding: 1px;
-  margin: 1px;
-
-}
-.dropdown6 {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  width: 120px;
-  border: 1px;
-  padding: 1px;
-  margin: 1px;
-
-}
-.dropdown7 {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  width: 120px;
-  border: 1px;
-  padding: 1px;
-  margin: 1px;
-
-<<<<<<< HEAD
 }
 #Phim{
-  background-color: rgb(104, 104, 158);
-=======
-}#Phim{
   background-color: rgb(243, 242, 164);
->>>>>>> 7f31f4dc25e33b788d6a5fb1586e04ac5cac2230
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -92,49 +33,45 @@
 }
 .phim1{
   background-color: rgb(3, 3, 3);
-  font-family: cursive;;
-  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;;
+  width: 120px;
   border: blue 1px;
-  padding: 100px;
-  margin: 1px;
+  padding: 130px;
+  margin: 0.5px;
   text-align: center;
 }
 .phim2{
   background-color:rgb(3, 3, 3);
-  font-family: cursive;
-  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 120px;
   border: blue 1px;
-  padding: 100px;
-  margin: 1px;
+  padding: 130px;
+  margin: 0.5px;
 
 
 }
 .phim3{
   background-color: rgb(3, 3, 3);
-  font-family: cursive;
-  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 120px;
   border: blue 1px;
-  padding: 100px;
-  margin: 1px;
+  padding: 130px;
+  margin: 0.5px;
+
 }
 .phim4{
   background-color:rgb(3, 3, 3);
-  font-family: cursive;
-  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 120px;
   border: blue 1px;
-  padding: 100px;
-  margin: 1px;
+  padding: 130px;
+  margin: 0.5px;
 }
 
-.Image1{
+.center{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-img.center{
-  display: block;
-  margin: 0 auto;
+  margin-left: -56px;
+  margin-right: -56px;
 }
 
 
