@@ -15,95 +15,69 @@
   justify-content: center;
   text-align: center;
 }
-.dropdown1 {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  width: 120px;
-  border: 1px;
-  padding: 1px;
-  margin: 1px;
-}
-.dropdown2 {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  width: 120px;
-  border: 1px;
-  padding: 1px;
-  margin: 1px;
-}
-.dropdown3 {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  width: 120px;
-  border: 1px;
-  padding: 1px;
-  margin: 1px;
-}
-.dropdown4 {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  width: 120px;
-  border: 1px;
-  padding: 1px;
-  margin: 1px;
-}
-.dropdown5 {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  width: 120px;
-  border: 1px;
-  padding: 1px;
-  margin: 1px;
-}
-.dropdown6 {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  width: 120px;
-  border: 1px;
-  padding: 1px;
-  margin: 1px;
-}
-.dropdown7 {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  width: 120px;
-  border: 1px;
-  padding: 1px;
-  margin: 1px;
 
-}#Phim{
-  background-color: rgb(243, 242, 164);
+button {
+  cursor: pointer;
+  color: lightcoral;
+}
+
+.dropdown1 {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 120px;
+  border: 1px;
+  padding: 1px;
+  margin: 1px;
+}
+#Phim1 {
+  background-color: lightskyblue;
   display: flex;
   flex-direction: row;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.phim1{
-  background-color: rgb(3, 3, 3);
-  font-family: cursive;;
+#Phim2 {
+  background-color: lightskyblue;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+#Phim3 {
+  background-color: lightskyblue;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+.phim1 {
+  background-color: lightskyblue;
+  font-family: cursive;
   width: 150px;
   border: blue 1px;
-  padding: 10px;
+  padding: 100px;
   margin: 1px;
+  align-items: center;
 }
-.phim2{
-  background-color:rgb(3, 3, 3);
+.phim2 {
+  background-color: lightskyblue;
   font-family: cursive;
+  width: 150px;
   border: blue 1px;
-  padding: 10px;
+  padding: 100px;
   margin: 1px;
+  align-items: center;
 }
-.phim3{
-  background-color: rgb(3, 3, 3);
+.phim3 {
+  background-color: lightskyblue;
   font-family: cursive;
+  width: 150px;
   border: blue 1px;
-  padding: 10px;
+  padding: 100px;
   margin: 1px;
+  align-items: center;
 }
-.phim4{
-  background-color:rgb(3, 3, 3);
-  font-family: cursive;
-  border: blue 1px;
-  padding: 10px;
-  margin: 1px;
+.phimcangiua {
+  display: block;
+  margin-left: -40px;
+  margin-right: -40px;
 }
