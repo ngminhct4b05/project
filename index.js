@@ -1,5 +1,9 @@
-var dataReceive = fetch('https://my-json-server.typicode.com/namnguyen6595/data/db')
-    .then(response => response.json())
-    .then(json => console.log(json))
+let data;
+var dataReceive =
+    fetch('https://my-json-server.typicode.com/namnguyen6595/data/db')
+        .then(response => { return response.json() })
+        .then(json => { data = json })
 
-console.log(dataReceive)
+function onLoadData() {
+    console.log(data)
+}

@@ -1,0 +1,38 @@
+{
+    "01": {
+        "key": "01",
+        "type": "phim_le",
+        "name_with_type": "",
+        "created_at": "",
+        "description": "",
+        "review": "",
+        "cast": ""
+    },
+    "02": {
+        "key": "02",
+        "type": "phim_bo",
+        "name_with_type": "",
+        "created_at": "",
+        "description": "",
+        "review": "",
+        "cast": ""
+    },
+    "03": {
+        "key": "03",
+        "type": "phim_chieu_rap",
+        "name_with_type": "",
+        "created_at": "",
+        "description": "",
+        "review": "",
+        "cast": ""
+    },
+    "04": {
+        "key": "04",
+        "type": "phim_hanh_dong",
+        "name_with_type": "",
+        "created_at": "",
+        "description": "",
+        "review": "",
+        "cast": ""
+    }
+}
