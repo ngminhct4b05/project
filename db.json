@@ -1,38 +1,23 @@
 {
-    "01": {
-        "key": "01",
-        "type": "phim_le",
-        "name_with_type": "",
-        "created_at": "",
-        "description": "",
-        "review": "",
-        "cast": ""
+    "maleficent_2": {
+        "creator": "Joachim Ronning",
+        "national": "Mỹ,Anh",
+        "year": 2019,
+        "debut_date": "16/10/2019",
+        "time": "118 phút",
+        "quality": "Bản đẹp",
+        "resolution": "Full HD",
+        "language": "Phụ đề Việt"
     },
-    "02": {
-        "key": "02",
-        "type": "phim_bo",
-        "name_with_type": "",
-        "created_at": "",
-        "description": "",
-        "review": "",
-        "cast": ""
-    },
-    "03": {
-        "key": "03",
-        "type": "phim_chieu_rap",
-        "name_with_type": "",
-        "created_at": "",
-        "description": "",
-        "review": "",
-        "cast": ""
-    },
-    "04": {
-        "key": "04",
-        "type": "phim_hanh_dong",
-        "name_with_type": "",
-        "created_at": "",
-        "description": "",
-        "review": "",
-        "cast": ""
-    }
+    "Joker": {},
+    "Frozen 2": {},
+    "Endgame": {},
+    "The theory of everything": {},
+    "Transformer 5:The last knight": {},
+    "Pacific Rim": {},
+    "Jumanji": {},
+    "Chappie": {},
+    "One Piece": {},
+    "District 9": {},
+    "Suicide squad": {}
 }
