@@ -6,18 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./index.css">
-    <script src="https://kit.fontawesome.com/f8f9095759.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="./phim.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <title>Project Film</title>
 </head>
@@ -25,7 +15,7 @@
 <body>
     <div class="header">
         <div class="heading">
-            <h1 class="h1">HOLLYHUS HOUSE</h1>
+            <h1 class="h1" onclick="backHome()">HOLLYHUS HOUSE</h1>
             <h3 class="h3">enjoy your favourite films</h3>
             <div style="color: rgb(233, 110, 29);">
                 Tìm kiếm:
@@ -56,68 +46,76 @@
                 <a href="#"></a>Top IMDB</button>
         </div>
     </div>
-    <div id="Phim1">
-        <div id="maleficent_2" class="phim1">
-            <img src="maleficent.jpg" alt="Maleficent 2" class="phimcangiua">
-            <h3 style="color:rgb(247, 243, 236)">Maleficent 2</h3>
+    <div id="all_films">
+        <div id="Phim1">
+            <div class="phim1">
+                <img onclick="filmID(this.id)" src="pic/maleficent.jpg" alt="Maleficent 2" id="maleficent_2"
+                    class="phimcangiua">
+                <h3 style="color:rgb(247, 243, 236)">Maleficent 2</h3>
+            </div>
+            <div class="phim1">
+                <img onclick="filmID(this.id)" src="pic/joker.jpg" id="joker" alt="Joker" class="phimcangiua">
+                <h3 style="color:rgb(247, 243, 236)">Joker</h3>
+            </div>
+            <div class="phim1">
+                <img onclick="filmID(this.id)" src="pic/frozen2.jpg" id="frozen_2" alt="Frozen2" class="phimcangiua">
+                <h3 style="color:rgb(247, 243, 236)">Frozen 2</h3>
+            </div>
+            <div class="phim1">
+                <img onclick="filmID(this.id)" src="pic/avengerendgame.jpg" id="endgame" alt="Endgame"
+                    class="phimcangiua">
+                <h3 style="color:rgb(247, 243, 236)">Endgame</h3>
+            </div>
         </div>
-        <div class="phim1">
-            <img src="joker.jpg" alt="Joker" class="phimcangiua">
-            <h3 style="color:rgb(247, 243, 236)">Joker</h3>
+        <div id="Phim2">
+            <div class="phim2">
+                <img onclick="filmID(this.id)" src="./pic/The_Theory_of_Everything_(2014).jpg"
+                    alt="The theory of everything" id="the_theory_of_everything" class="phimcangiua">
+                <h3 style="color:rgb(247, 243, 236)">The theory of everything</h3>
+            </div>
+            <div class="phim2">
+                <img onclick="filmID(this.id)" src="pic/Transformers_The_Last_Knight_poster.jpg"
+                    alt="Transformer 5:The last knight" id="transformers_5" class="phimcangiua">
+                <h3 style="color:rgb(247, 243, 236)">Transformer 5:The last knight</h3>
+            </div>
+            <div class="phim2">
+                <img onclick="filmID(this.id)" src="pic/Pacific_Rim_Film.jpeg" id="pacific_rim" alt="Pacific Rim"
+                    class="phimcangiua">
+                <h3 style="color:rgb(247, 243, 236)">Pacific Rim</h3>
+            </div>
+            <div class="phim2">
+                <img onclick="filmID(this.id)" src="pic/jumanji.jpg" id="jumanji" alt="Jumanji" class="phimcangiua">
+                <h3 style="color:rgb(247, 243, 236)">Jumanji</h3>
+            </div>
         </div>
-        <div class="phim1">
-            <img src="frozen2.jpg" alt="Frozen2" class="phimcangiua">
-            <h3 style="color:rgb(247, 243, 236)">Frozen 2</h3>
-        </div>
-        <div class="phim1">
-            <img src="avengerendgame.jpg" alt="Endgame" class="phimcangiua">
-            <h3 style="color:rgb(247, 243, 236)">Endgame</h3>
+        <div id="Phim3">
+            <div class="phim3">
+                <img onclick="filmID(this.id)" src="pic/Chappie.jpg" id="chappie" alt="Chappie" class="phimcangiua">
+                <h3 style="color:rgb(247, 243, 236)">Chappie</h3>
+            </div>
+            <div class="phim3">
+                <img onclick="filmID(this.id)" src="pic/One_Piece.png" id="one_piece" alt="One Piece"
+                    class="phimcangiua">
+                <h3 style="color:rgb(247, 243, 236)">One Piece</h3>
+            </div>
+            <div class="phim3">
+                <img onclick="filmID(this.id)" src="pic/district 9.jpg" id="district_9" alt="District 9"
+                    class="phimcangiua">
+                <h3 style="color:rgb(247, 243, 236)">District 9</h3>
+            </div>
+            <div class="phim3">
+                <img onclick="filmID(this.id)" src="pic/suicide squad.jpg" id="suicide_squad" alt="Suicide squad"
+                    class="phimcangiua">
+                <h3 style="color:rgb(247, 243, 236)">Suicide squad</h3>
+            </div>
         </div>
     </div>
-    <div id="Phim2">
-        <div class="phim2">
-            <img src="The_Theory_of_Everything_(2014).jpg" alt="The theory of everything" class="phimcangiua">
-            <h3 style="color:rgb(247, 243, 236)">The theory of everything</h3>
-        </div>
-        <div class="phim2">
-            <img src="Transformers_The_Last_Knight_poster.jpg" alt="Transformer 5:The last knight" class="phimcangiua">
-            <h3 style="color:rgb(247, 243, 236)">Transformer 5:The last knight</h3>
-        </div>
-        <div class="phim2">
-            <img src="Pacific_Rim_Film.jpeg" alt="Pacific Rim" class="phimcangiua">
-            <h3 style="color:rgb(247, 243, 236)">Pacific Rim</h3>
-        </div>
-        <div class="phim2">
-            <img src="jumanji.jpg" alt="Jumanji" class="phimcangiua">
-            <h3 style="color:rgb(247, 243, 236)">Jumanji</h3>
-        </div>
-    </div>
-    <div id="Phim3">
-        <div class="phim3">
-            <img src="Chappie.jpg" alt="Chappie" class="phimcangiua">
-            <h3 style="color:rgb(247, 243, 236)">Chappie</h3>
-        </div>
-        <div class="phim3">
-            <img src="One_Piece.png" alt="One Piece" class="phimcangiua">
-            <h3 style="color:rgb(247, 243, 236)">One Piece</h3>
-        </div>
-        <div class="phim3">
-            <img src="district 9.jpg" alt="District 9" class="phimcangiua">
-            <h3 style="color:rgb(247, 243, 236)">District 9</h3>
-        </div>
-        <div class="phim3">
-            <img src="suicide squad.jpg" alt="Suicide squad" class="phimcangiua">
-            <h3 style="color:rgb(247, 243, 236)">Suicide squad</h3>
-        </div>
-    </div>
+    <div id="film"></div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script type="text/javascript" src="./index.js"></script>
-    <script>
-        window.onload = dataReceive()
-    </script>
 </body>
 
 </html>
