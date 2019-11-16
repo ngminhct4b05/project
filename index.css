@@ -37,21 +37,21 @@ button {
     margin: 1px;
 }
 #Phim1 {
-    background-color: lightskyblue;
+    background-color: rgb(33, 47, 56);
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
 }
 #Phim2 {
-    background-color: lightskyblue;
+    background-color: rgb(33, 47, 56);
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
 }
 #Phim3 {
-    background-color: lightskyblue;
+    background-color: rgb(33, 47, 56);
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -60,7 +60,7 @@ button {
 .phim1 {
     background-color: rgb(13, 15, 17);
     font-family: cursive;
-    width: 140px;
+    width: 105px;
     border: blue 1px;
     padding: 120px;
     margin: 1px;
@@ -69,7 +69,7 @@ button {
 .phim2 {
     background-color: rgb(13, 15, 17);
     font-family: cursive;
-    width: 150px;
+    width: 105px;
     border: blue 1px;
     padding: 120px;
     margin: 1px;
@@ -78,9 +78,9 @@ button {
 .phim3 {
     background-color: rgb(13, 16, 17);
     font-family: cursive;
-    width: 130px;
+    width: 105spx;
     border: blue 1px;
-    padding: 125px;
+    padding: 120px;
     margin: 1px;
     align-items: center;
 }
@@ -89,8 +89,6 @@ button {
     margin-left: -40px;
     margin-right: -40px;
 }
-
-
 
 
 
