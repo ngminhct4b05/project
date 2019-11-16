@@ -19,7 +19,7 @@ let data = {
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
-    "Frozen 2": {
+    "Frozen_2": {
         "creator": "Chris Buck,Jennifer Lee",
         "national": "Mỹ",
         "year": 2019,
@@ -39,7 +39,7 @@ let data = {
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
-    "The theory of everything": {
+    "The_theory_of_everything": {
         "creator": "James Marsh",
         "national": "Anh",
         "year": 2014,
@@ -49,7 +49,7 @@ let data = {
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
-    "Transformer 5:The last knight": {
+    "Transformer_5:The last knight": {
         "creator": "Michael Bay",
         "national": "Mỹ",
         "year": 2017,
@@ -59,7 +59,7 @@ let data = {
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
-    "Pacific Rim": {
+    "Pacific_Rim": {
         "creator": "Guillermo Del Toro",
         "national": "Mỹ",
         "year": 2013,
@@ -89,7 +89,7 @@ let data = {
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
-    "One Piece": {
+    "One_Piece": {
         "creator": "Todd Phillips",
         "national": "Mỹ,Canada",
         "year": 2019,
@@ -99,8 +99,8 @@ let data = {
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
-    "District 9": {},
-    "Suicide squad": {
+    "District_9": {},
+    "Suicide_squad": {
         "creator": "David Ayer",
         "national": "Mỹ,Canada",
         "year": 2016,
