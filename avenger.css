@@ -1,0 +1,39 @@
+.header{
+    text-align: center;
+    justify-content: center;
+}
+
+#phim1{
+    display: flexbox;
+    flex-direction: column;
+    text-align: left;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 400px;
+    padding: 80px;  
+    display: block;
+    margin-left: 600px;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
