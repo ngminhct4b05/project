@@ -33,8 +33,9 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     width: 120px;
     border: 1px;
-    padding: 1px;
+    padding: 12px;
     margin: 1px;
+    font-size: 20px;
 }
 #Phim1 {
     background-color: rgb(33, 47, 56);
