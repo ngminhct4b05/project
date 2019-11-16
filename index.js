@@ -8,13 +8,12 @@ var dataReceive =
 
 function onSearch() {
     const value = document.getElementById("search").value;
-    console.log(data)
+    console.log(value)
 }
 
 function onLoadData(id) {
     console.log(id)
 }
-
 function filmID(id) {
     data.map(item => {
         if (id === item.key) {
