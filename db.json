@@ -7,17 +7,18 @@
         "time": "118 phút",
         "quality": "Bản đẹp",
         "resolution": "Full HD",
-        "language": "Phụ đề Việt"
+        "language": "Phụ đề Việt",
+        "name_with_key": "Maleficent 2"
     },
-    "Joker": {},
-    "Frozen 2": {},
-    "Endgame": {},
-    "The theory of everything": {},
-    "Transformer 5:The last knight": {},
-    "Pacific Rim": {},
-    "Jumanji": {},
-    "Chappie": {},
-    "One Piece": {},
-    "District 9": {},
-    "Suicide squad": {}
+    "joker": {},
+    "frozen_2": {},
+    "endgame": {},
+    "the_theory_of_everything": {},
+    "transformer_5": {},
+    "pacific_rim": {},
+    "jumanji": {},
+    "chappie": {},
+    "one_piece": {},
+    "district_9": {},
+    "suicide_squad": {}
 }

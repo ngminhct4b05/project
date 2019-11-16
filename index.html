@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/f8f9095759.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -26,39 +27,37 @@
         <div class="heading">
             <h1 class="h1">HOLLYHUS HOUSE</h1>
             <h3 class="h3">enjoy your favourite films</h3>
-            <form style="color: rgb(233, 110, 29);">
+            <div style="color: rgb(233, 110, 29);">
                 Tìm kiếm:
-                <input type="text" name="nhập tên phim">
-                <i class="fas fa-search"></i>
-
-                <input type="submit" value="Enter">
-            </form>
+                <input type="text" id="search" name="nhập tên phim">
+                <button onclick="onSearch()"><i class="fas fa-search"></i> Enter</button>
+            </div>
         </div>
         </form>
         <div id="dropdown">
-            <button class="dropdown1" onclick="onLoadData()" type="button">
+            <button class="dropdown1" id="home" onclick="onLoadData(this.id)" type="button">
                 <a href="#"></a>Home</button>
-            <button class="dropdown1" type="button">
+            <button class="dropdown1" id="type" onclick="onLoadData(this.id)" type="button">
                 <a href="#"></a>Thể loại</button>
 
-            <button class="dropdown1" type="button">
+            <button class="dropdown1" id="phim_le" onclick="onLoadData(this.id)" type="button">
                 <a href="#"></a>Phim Lẻ</button>
 
-            <button class="dropdown1" type="button">
+            <button class="dropdown1" id="phim_bo" onclick="onLoadData(this.id)" type="button">
                 <a href="#"></a>Phim Bộ</button>
 
-            <button class="dropdown1" type="button">
+            <button class="dropdown1" id="phime_moi" onclick="onLoadData(this.id)" type="button">
                 <a href="#"></a>Phim Mới</button>
 
-            <button class="dropdown1" type="button">
+            <button class="dropdown1" id="phim_chieu_rap" onclick="onLoadData(this.id)" type="button">
                 <a href="#"></a>Phim Chiếu Rạp</button>
 
-            <button class="dropdown1" type="button">
+            <button class="dropdown1" id="top_imd" onclick="onLoadData(this.id)" type="button">
                 <a href="#"></a>Top IMDB</button>
         </div>
     </div>
     <div id="Phim1">
-        <div class="phim1">
+        <div id="maleficent_2" class="phim1">
             <img src="maleficent.jpg" alt="Maleficent 2" class="phimcangiua">
             <h3 style="color:rgb(247, 243, 236)">Maleficent 2</h3>
         </div>
@@ -113,7 +112,12 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script type="text/javascript" src="./index.js"></script>
+    <script>
+        window.onload = dataReceive()
+    </script>
 </body>
 
 </html>
