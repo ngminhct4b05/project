@@ -32,10 +32,14 @@ button {
 .dropdown1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    width: 150px;
+    width: 170px;
     border: 1px;
     padding: 12px;
     margin: 1px;
+}
+
+.search {
+    font-size: 25px
 }
 
 
