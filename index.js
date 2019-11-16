@@ -21,7 +21,7 @@ function filmID(id) {
             dataID = item
             var html = `<div class="nentong">
             <div class="phimtong">
-                <div class="img"><img src="${item.thumbnail}" alt=""></div>
+                <div class="img"><img src="${item.thumbnail}" alt="This is a picture"></div>
                 <div class="ok">
                     <h2>${item.name_with_key}</h2>
                     <h3>Creator: ${item.creator}</h3>
@@ -81,8 +81,8 @@ function filmID(id) {
                <h5>${item.content}</h5>
             </div>
         </div>`
+            container.insertAdjacentHTML("beforeend", html)
         }
-        container.insertAdjacentHTML("beforeend", html)
     })
     document.getElementById("all_films").style.display = "none"
     // location.href = 'phim.html'
