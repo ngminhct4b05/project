@@ -37,21 +37,21 @@ button {
     margin: 1px;
 }
 #Phim1 {
-    background-color: lightskyblue;
+    background-color: rgb(33, 47, 56);
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
 }
 #Phim2 {
-    background-color: lightskyblue;
+    background-color: rgb(33, 47, 56);
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
 }
 #Phim3 {
-    background-color: lightskyblue;
+    background-color: rgb(33, 47, 56);
     display: flex;
     flex-direction: row;
     text-align: center;
