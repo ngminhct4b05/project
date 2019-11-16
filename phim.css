@@ -16,6 +16,7 @@
     color: rgb(233, 110, 29);
 }
 #dropdown {
+    background-color: rgb(33, 47, 56);
     color: rgb(255, 255, 255);
     font-size: 20px;
     display: flex;
