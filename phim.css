@@ -16,6 +16,7 @@
     color: rgb(233, 110, 29);
 }
 #dropdown {
+    background-color: rgb(33, 47, 56);
     color: rgb(255, 255, 255);
     font-size: 20px;
     display: flex;
@@ -52,6 +53,7 @@ button {
         display: block;
         margin-left: 800px;
         margin-top: -400px;
+        color: rgb(247, 246, 204);
        
         
 
@@ -65,7 +67,9 @@ button {
 
 
 
-
+.phimok{
+    background-color: rgb(33, 47, 56);
+}
 
 
 
