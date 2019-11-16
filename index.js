@@ -7,35 +7,114 @@ let data = {
         "time": "118 phút",
         "quality": "Bản đẹp",
         "resolution": "Full HD",
-        "language": "Phụ đề Việt",
-        "name_with_key": "Maleficent 2"
+        "language": "Phụ đề Việt"
     },
-    "joker": {},
-    "frozen_2": {},
-    "endgame": {},
-    "the_theory_of_everything": {},
-    "transformer_5": {},
-    "pacific_rim": {},
-    "jumanji": {},
-    "chappie": {},
-    "one_piece": {},
-    "district_9": {},
-    "suicide_squad": {}
+    "Joker": {
+        "creator": "Todd Phillips",
+        "national": "Mỹ,Canada",
+        "year": 2019,
+        "debut_date": "1/10/2019",
+        "time": "122 phút",
+        "quality": "Bản đẹp",
+        "resolution": "Full HD",
+        "language": "Phụ đề Việt"
+    },
+    "Frozen 2": {
+        "creator": "Chris Buck,Jennifer Lee",
+        "national": "Mỹ",
+        "year": 2019,
+        "debut_date": "22/11/2019",
+        "time": "120 phút",
+        "quality": "Bản đẹp",
+        "resolution": "Full HD",
+        "language": "Phụ đề Việt"
+    },
+    "Endgame": {
+        "creator": "Joe Russo, Anthony Russo",
+        "national": "Mỹ",
+        "year": 2019,
+        "debut_date": "24/4/2019",
+        "time": "181 phút",
+        "quality": "Bản đẹp",
+        "resolution": "Full HD",
+        "language": "Phụ đề Việt"
+    },
+    "The theory of everything": {
+        "creator": "James Marsh",
+        "national": "Anh",
+        "year": 2014,
+        "debut_date": "1/1/2019",
+        "time": "123 phút",
+        "quality": "Bản đẹp",
+        "resolution": "Full HD",
+        "language": "Phụ đề Việt"
+    },
+    "Transformer 5:The last knight": {
+        "creator": "Michael Bay",
+        "national": "Mỹ",
+        "year": 2017,
+        "debut_date": "23/6/2017",
+        "time": "149 phút",
+        "quality": "Bản đẹp",
+        "resolution": "Full HD",
+        "language": "Phụ đề Việt"
+    },
+    "Pacific Rim": {
+        "creator": "Guillermo Del Toro",
+        "national": "Mỹ",
+        "year": 2013,
+        "debut_date": "11/7/2013",
+        "time": "131 phút",
+        "quality": "Bản đẹp",
+        "resolution": "Full HD",
+        "language": "Phụ đề Việt"
+    },
+    "Jumanji": {
+        "creator": "Jake Kasdan",
+        "national": "Mỹ",
+        "year": 2017,
+        "debut_date": "22/12/2017",
+        "time": "119 phút",
+        "quality": "Bản đẹp",
+        "resolution": "Full HD",
+        "language": "Phụ đề Việt"
+    },
+    "Chappie": {
+        "creator": "Neill Blomkamp",
+        "national": "Mỹ,Mexico",
+        "year": 2015,
+        "debut_date": "6/3/2015",
+        "time": "120 phút",
+        "quality": "Bản đẹp",
+        "resolution": "Full HD",
+        "language": "Phụ đề Việt"
+    },
+    "One Piece": {
+        "creator": "Todd Phillips",
+        "national": "Mỹ,Canada",
+        "year": 2019,
+        "debut_date": "1/10/2019",
+        "time": "122 phút",
+        "quality": "Bản đẹp",
+        "resolution": "Full HD",
+        "language": "Phụ đề Việt"
+    },
+    "District 9": {},
+    "Suicide squad": {
+        "creator": "David Ayer",
+        "national": "Mỹ,Canada",
+        "year": 2016,
+        "debut_date": "5/8/2019",
+        "time": "135 phút",
+        "quality": "Bản đẹp",
+        "resolution": "Full HD",
+        "language": "Phụ đề Việt"
+    }
 }
-// function dataReceive() {
-//     fetch('http://localhost:3000/api/film')
-//         .then(response => response.json())
-//         .then(json => { data = json })
-// }
-
-function onLoadData(id) {
-    data.map(item => {
-        if (id === item.type) {
-            console.log("Found", item)
-        }
-    })
-
-}
+var dataReceive =
+    fetch('https://my-json-server.typicode.com/namnguyen6595/data/db')
+        .then(response => { return response.json() })
+        .then(json => { data = json })
 
 function onSearch() {
     const value = document.getElementById("search").value;
