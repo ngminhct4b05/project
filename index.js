@@ -90,16 +90,25 @@ let data = {
         "language": "Phụ đề Việt"
     },
     "One_Piece": {
-        "creator": "Todd Phillips",
-        "national": "Mỹ,Canada",
-        "year": 2019,
-        "debut_date": "1/10/2019",
-        "time": "122 phút",
+        "creator": "Eiichiro Oda",
+        "national": "Nhật Bản",
+        "year": 2016,
+        "debut_date": "23/7/2019",
+        "time": "105 phút",
         "quality": "Bản đẹp",
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
-    "District_9": {},
+    "District_9": {
+        "creator": "Neill Blomkamp,Terri Tatchell",
+        "national": "Mỹ,New Zealand",
+        "year": 2009,
+        "debut_date": "13/8/2009",
+        "time": "112 phút",
+        "quality": "Bản đẹp",
+        "resolution": "Full HD",
+        "language": "Phụ đề Việt"
+    },
     "Suicide_squad": {
         "creator": "David Ayer",
         "national": "Mỹ,Canada",
