@@ -1,162 +1,4 @@
-{
-<<<<<<< HEAD
-    "01": {
-        "Status": "",
-        "IMDb point": ,
-        "Director": "",
-        "Country": "",
-        "Year": "",
-        "Premiere date": "",
-        "Time": "",
-        "Number of chacks": "",
-        "Quality": "",
-        "Language": "",
-    },
-    "03": {
-        "Status": "",
-        "IMDb point": ,
-        "Director": "",
-        "Country": "",
-        "Year": "",
-        "Premiere date": "",
-        "Time": "",
-        "Number of chacks": "",
-        "Quality": "",
-        "Language": "",
-    },
-    "04": {
-        "Status": "",
-        "IMDb point": ,
-        "Director": "",
-        "Country": "",
-        "Year": "",
-        "Premiere date": "",
-        "Time": "",
-        "Number of chacks": "",
-        "Quality": "",
-        "Language": "",
-    },
-    "05": {
-        "Status": "",
-        "IMDb point": ,
-        "Director": "",
-        "Country": "",
-        "Year": "",
-        "Premiere date": "",
-        "Time": "",
-        "Number of chacks": "",
-        "Quality": "",
-        "Language": "",
-    },
-    "06": {
-        "Status": "",
-        "IMDb point": ,
-        "Director": "",
-        "Country": "",
-        "Year": "",
-        "Premiere date": "",
-        "Time": "",
-        "Number of chacks": "",
-        "Quality": "",
-        "Language": "",
-    },
-    "07": {
-        "Status": "",
-        "IMDb point": ,
-        "Director": "",
-        "Country": "",
-        "Year": "",
-        "Premiere date": "",
-        "Time": "",
-        "Number of chacks": "",
-        "Quality": "",
-        "Language": "",
-    },
-    "08": {
-        "Status": "",
-        "IMDb point": ,
-        "Director": "",
-        "Country": "",
-        "Year": "",
-        "Premiere date": "",
-        "Time": "",
-        "Number of chacks": "",
-        "Quality": "",
-        "Language": "",
-    },
-    "09": {
-        "Status": "",
-        "IMDb point": ,
-        "Director": "",
-        "Country": "",
-        "Year": "",
-        "Premiere date": "",
-        "Time": "",
-        "Number of chacks": "",
-        "Quality": "",
-        "Language": "",
-    },
-    "10": {
-        "Status": "",
-        "IMDb point": ,
-        "Director": "",
-        "Country": "",
-        "Year": "",
-        "Premiere date": "",
-        "Time": "",
-        "Number of chacks": "",
-        "Quality": "",
-        "Language": "",
-    },
-    "11": {
-        "Status": "",
-        "IMDb point": ,
-        "Director": "",
-        "Country": "",
-        "Year": "",
-        "Premiere date": "",
-        "Time": "",
-        "Number of chacks": "",
-        "Quality": "",
-        "Language": "",
-    },
-    "12": {
-        "Status": "",
-        "IMDb point": ,
-        "Director": "",
-        "Country": "",
-        "Year": "",
-        "Premiere date": "",
-        "Time": "",
-        "Number of chacks": "",
-        "Quality": "",
-        "Language": "",
-    },
-    "13": {
-        "Status": "",
-        "IMDb point": ,
-        "Director": "",
-        "Country": "",
-        "Year": "",
-        "Premiere date": "",
-        "Time": "",
-        "Number of chacks": "",
-        "Quality": "",
-        "Language": "",
-    },
-    "14": {
-        "Status": "",
-        "IMDb point": ,
-        "Director": "",
-        "Country": "",
-        "Year": "",
-        "Premiere date": "",
-        "Time": "",
-        "Number of chacks": "",
-        "Quality": "",
-        "Language": "",
-    },
-=======
+
     "maleficent_2": {
         "creator": "Joachim Ronning",
         "national": "Mỹ,Anh",
@@ -165,15 +7,21 @@
         "time": "118 phút",
         "quality": "Bản đẹp",
         "resolution": "Full HD",
-        "language": "Phụ đề Việt"
+        "language": "Phụ đề Việt",
+        "name_with_key": "Maleficent 2"
     },
 <<<<<<< HEAD
-    "Joker": {        
-        "creator": "Joachim Ronning",
-        "national": "Mỹ,Anh",
-        "year": 2019,
-        "debut_date": "16/10/2019",
-        "time": "118 phút",
+    "joker": {},
+    "frozen_2": {},
+    "endgame": {},
+    "the_theory_of_everything": {},
+    "transformer_5": {},
+    "pacific_rim": {},
+    "jumanji": {},
+    "chappie": {},
+    "one_piece": {},
+    "district_9": {},
+    "suicide_squad": {}
 =======
     "Joker": {
         "creator": "Todd Phillips",
@@ -181,168 +29,80 @@
         "year": 2019,
         "debut_date": "1/10/2019",
         "time": "122 phút",
->>>>>>> 6d43b52fcc94a1c4123fae3cb5122af1b01baeda
         "quality": "Bản đẹp",
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
     "Frozen 2": {
-<<<<<<< HEAD
-        "creator": "Joachim Ronning",
-        "genre": 
-        "national": "Mỹ,Anh",
-        "year": 2019,
-        "debut_date": "16/10/2019",
-        "time": "118 phút",
-=======
         "creator": "Chris Buck,Jennifer Lee",
         "national": "Mỹ",
         "year": 2019,
         "debut_date": "22/11/2019",
         "time": "120 phút",
->>>>>>> 6d43b52fcc94a1c4123fae3cb5122af1b01baeda
         "quality": "Bản đẹp",
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
     "Endgame": {
-<<<<<<< HEAD
-        "creator": "Joachim Ronning",
-        "national": "Mỹ,Anh",
-        "year": 2019,
-        "debut_date": "16/10/2019",
-        "time": "118 phút",
-=======
         "creator": "Joe Russo, Anthony Russo",
         "national": "Mỹ",
         "year": 2019,
         "debut_date": "24/4/2019",
         "time": "181 phút",
->>>>>>> 6d43b52fcc94a1c4123fae3cb5122af1b01baeda
         "quality": "Bản đẹp",
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
     "The theory of everything": {
-<<<<<<< HEAD
-        "creator": "Joachim Ronning",
-        "national": "Mỹ,Anh",
-        "year": 2019,
-        "debut_date": "16/10/2019",
-        "time": "118 phút",
-=======
         "creator": "James Marsh",
         "national": "Anh",
         "year": 2014,
         "debut_date": "1/1/2019",
         "time": "123 phút",
->>>>>>> 6d43b52fcc94a1c4123fae3cb5122af1b01baeda
         "quality": "Bản đẹp",
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
     "Transformer 5:The last knight": {
-<<<<<<< HEAD
-        "creator": "Joachim Ronning",
-        "national": "Mỹ,Anh",
-        "year": 2019,
-        "debut_date": "16/10/2019",
-        "time": "118 phút",
-=======
         "creator": "Michael Bay",
         "national": "Mỹ",
         "year": 2017,
         "debut_date": "23/6/2017",
         "time": "149 phút",
->>>>>>> 6d43b52fcc94a1c4123fae3cb5122af1b01baeda
         "quality": "Bản đẹp",
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
     "Pacific Rim": {
-<<<<<<< HEAD
-        "creator": "Joachim Ronning",
-        "national": "Mỹ,Anh",
-        "year": 2019,
-        "debut_date": "16/10/2019",
-        "time": "118 phút",
-=======
         "creator": "Guillermo Del Toro",
         "national": "Mỹ",
         "year": 2013,
         "debut_date": "11/7/2013",
         "time": "131 phút",
->>>>>>> 6d43b52fcc94a1c4123fae3cb5122af1b01baeda
         "quality": "Bản đẹp",
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
     "Jumanji": {
-<<<<<<< HEAD
-        "creator": "Joachim Ronning",
-        "national": "Mỹ,Anh",
-        "year": 2019,
-        "debut_date": "16/10/2019",
-        "time": "118 phút",
-=======
         "creator": "Jake Kasdan",
         "national": "Mỹ",
         "year": 2017,
         "debut_date": "22/12/2017",
         "time": "119 phút",
->>>>>>> 6d43b52fcc94a1c4123fae3cb5122af1b01baeda
         "quality": "Bản đẹp",
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
-<<<<<<< HEAD
-    "Chappie": { 
-        "creator": "Joachim Ronning",
-        "national": "Mỹ,Anh",
-        "year": 2019,
-        "debut_date": "16/10/2019",
-        "time": "118 phút",
-=======
     "Chappie": {
         "creator": "Neill Blomkamp",
         "national": "Mỹ,Mexico",
         "year": 2015,
         "debut_date": "6/3/2015",
         "time": "120 phút",
->>>>>>> 6d43b52fcc94a1c4123fae3cb5122af1b01baeda
         "quality": "Bản đẹp",
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     },
-<<<<<<< HEAD
-    "One Piece": { 
-        "creator": "Joachim Ronning",
-        "national": "Mỹ,Anh",
-        "year": 2019,
-        "debut_date": "16/10/2019",
-        "time": "118 phút",
-        "quality": "Bản đẹp",
-        "resolution": "Full HD",
-        "language": "Phụ đề Việt"},
-    "District 9": { 
-        "creator": "Joachim Ronning",
-        "national": "Mỹ,Anh",
-        "year": 2019,
-        "debut_date": "16/10/2019",
-        "time": "118 phút",
-        "quality": "Bản đẹp",
-        "resolution": "Full HD",
-        "language": "Phụ đề Việt"},
-    "Suicide squad": { 
-        "creator": "Joachim Ronning",
-        "national": "Mỹ,Anh",
-        "year": 2019,
-        "debut_date": "16/10/2019",
-        "time": "118 phút",
-        "quality": "Bản đẹp",
-        "resolution": "Full HD",
-        "language": "Phụ đề Việt"}
-=======
     "One Piece": {
         "creator": "Todd Phillips",
         "national": "Mỹ,Canada",
@@ -364,6 +124,8 @@
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     }
+<<<<<<< HEAD
 >>>>>>> 6d43b52fcc94a1c4123fae3cb5122af1b01baeda
->>>>>>> 7353c9654f16f7594b90cb6b88e5f8414508b779
 }
+=======
+>>>>>>> 165e53345438851b6660d09c4500eacd83b93ced
