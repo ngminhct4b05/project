@@ -1,0 +1,95 @@
+.header {
+  background: rgb(255, 255, 219);
+  font-style: italic;
+}
+.heading {
+  color: rgb(183, 201, 201);
+  text-align: center;
+  font-size: 30;
+}
+.h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(248, 9, 9);
+}
+.h3 {
+  font-family: monospace;
+  color: rgb(233, 110, 29);
+}
+#dropdown {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  color: lightcoral;
+}
+
+.dropdown1 {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 170px;
+  border: 0.5PX;
+  padding: 8px;
+  margin: 0.5PX;
+  font-size: 20px
+}
+#Phim1 {
+  background-color: rgb(33, 47, 56);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+#Phim2 {
+  background-color: rgb(33, 47, 56);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+#Phim3 {
+  background-color: rgb(33, 47, 56);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+.phim1 {
+  background-color: rgb(13, 15, 17);
+  font-family: cursive;
+  width: 120px;
+  border: blue 0.5PX;
+  padding: 120px;
+  margin: 0.5px;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.phim2 {
+  background-color: rgb(13, 15, 17);
+  font-family: cursive;
+  width: 120px;
+  border: blue 0.5PX;
+  padding: 120px;
+  margin: 0.5PX;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.phim3 {
+  background-color: rgb(13, 16, 17);
+  font-family: cursive;
+  width: 120px;
+  border: blue 0.5PX;
+  padding: 120px;
+  margin: 0.5PX;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.phimcangiua {
+  display: block;
+  margin-left: -50px;
+  margin-right: -50px;
+}
