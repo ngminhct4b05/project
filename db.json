@@ -1,4 +1,4 @@
-
+{
     "maleficent_2": {
         "creator": "Joachim Ronning",
         "national": "Mỹ,Anh",
@@ -7,22 +7,8 @@
         "time": "118 phút",
         "quality": "Bản đẹp",
         "resolution": "Full HD",
-        "language": "Phụ đề Việt",
-        "name_with_key": "Maleficent 2"
+        "language": "Phụ đề Việt"
     },
-<<<<<<< HEAD
-    "joker": {},
-    "frozen_2": {},
-    "endgame": {},
-    "the_theory_of_everything": {},
-    "transformer_5": {},
-    "pacific_rim": {},
-    "jumanji": {},
-    "chappie": {},
-    "one_piece": {},
-    "district_9": {},
-    "suicide_squad": {}
-=======
     "Joker": {
         "creator": "Todd Phillips",
         "national": "Mỹ,Canada",
@@ -124,8 +110,4 @@
         "resolution": "Full HD",
         "language": "Phụ đề Việt"
     }
-<<<<<<< HEAD
->>>>>>> 6d43b52fcc94a1c4123fae3cb5122af1b01baeda
 }
-=======
->>>>>>> 165e53345438851b6660d09c4500eacd83b93ced
