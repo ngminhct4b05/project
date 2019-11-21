@@ -2,7 +2,7 @@ let data, idFilm, dataID;
 var container = document.getElementById('film')
 const idFilms = document.getElementById('films')
 var dataReceive =
-    fetch('https://dev-c4t-test.herokuapp.com//api/film')
+    fetch('https://dev-c4t-test.herokuapp.com/api/film')
         .then(response => { return response.json() })
         .then(json => { data = json })
 
