@@ -2,7 +2,7 @@ let data, idFilm, dataID;
 var container = document.getElementById('film')
 const idFilms = document.getElementById('films')
 var dataReceive =
-    fetch('https://arcane-ridge-39561.herokuapp.com/api/film')
+    fetch('https://dev-c4t-test.herokuapp.com//api/film')
         .then(response => { return response.json() })
         .then(json => { data = json })
 
@@ -33,45 +33,38 @@ function filmID(id) {
             </div>
             <div class="dienvien">
             <div class="khungdienvien">
-                <img src="pic/angelina jolie.jpg" alt="Maleficent_2" class="anhdienvien">
+                <img src="pic/angelina jolie.jpg" alt="actor" class="anhdienvien">
                 <h3 class="vitri">
                     <form style="color:beige;"></form>
                     <h4>${item.actor[0]}</h4>
                 </h3>
             </div>
             <div class="khungdienvien">
-                <img src="pic/elle.jpg" alt="Maleficent_2" class="anhdienvien">
+                <img src="pic/elle.jpg" alt="actor" class="anhdienvien">
                 <h3 class="vitri">
                     <form style="color:beige;"></form>
                     <h4>${item.actor[1]}</h4>
                 </h3>
             </div>
             <div class="khungdienvien">
-                <img src="pic/sharlto.jpg" alt="Maleficent_2" class="anhdienvien">
+                <img src="pic/sharlto.jpg" alt="actor" class="anhdienvien">
                 <h3 class="vitri">
                     <form style="color:beige,"></form>
                     <h4>${item.actor[2]}</h4>
                 </h3>
             </div>
             <div class="khungdienvien">
-                <img src="pic/LESLEY.jpg" alt="Maleficent_2" class="anhdienvien">
+                <img src="pic/LESLEY.jpg" alt="actor" class="anhdienvien">
                 <h3 class="vitri">
                     <form style="color:beige;"></form>
                     <h4>${item.actor[3]}</h4>
                 </h3>
             </div>
             <div class="khungdienvien">
-                <img src="./pic/HARRIS DICKINSON.jpg" alt="Maleficent_2" class="anhdienvien">
+                <img src="./pic/HARRIS DICKINSON.jpg" alt="actor" class="anhdienvien">
                 <h3 class="vitri">
                     <form style="color:beige;"></form>
                     <h4>${item.actor[4]}</h4>
-                </h3>
-            </div>
-            <div class="khungdienvien">
-                <img src="./pic/SAM RILEY.jpg" alt="Maleficent_2" class="anhdienvien">
-                <h3 class="vitri">
-                    <form style="color:beige;"></form>
-                    <h4>${item.actor[5]}</h4>
                 </h3>
             </div>
         </div>
