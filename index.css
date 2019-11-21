@@ -42,26 +42,26 @@ button {
     display: flex;
     flex-direction: row;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #Phim2 {
     background-color: rgb(33, 47, 56);
     display: flex;
     flex-direction: row;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #Phim3 {
     background-color: rgb(33, 47, 56);
     display: flex;
     flex-direction: row;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .phim1 {
     background-color: rgb(13, 15, 17);
     font-family: cursive;
-    width: 105px;
+    width: 115px;
     border: blue 1px;
     padding: 120px;
     margin: 1px;
@@ -70,7 +70,7 @@ button {
 .phim2 {
     background-color: rgb(13, 15, 17);
     font-family: cursive;
-    width: 105px;
+    width: 115px;
     border: blue 1px;
     padding: 120px;
     margin: 1px;
@@ -79,7 +79,7 @@ button {
 .phim3 {
     background-color: rgb(13, 16, 17);
     font-family: cursive;
-    width: 105spx;
+    width: 115px;
     border: blue 1px;
     padding: 120px;
     margin: 1px;
