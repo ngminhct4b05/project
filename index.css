@@ -47,21 +47,21 @@ button {
     display: flex;
     flex-direction: row;
     text-align: center;
-    flex-wrap: nowrap;
+    /* justify-content: space-around; */
 }
 #Phim2 {
     background-color: rgb(33, 47, 56);
     display: flex;
     flex-direction: row;
     text-align: center;
-    flex-wrap: nowrap;
+    /* justify-content: space-around; */
 }
 #Phim3 {
     background-color: rgb(33, 47, 56);
     display: flex;
     flex-direction: row;
     text-align: center;
-    flex-wrap: nowrap;
+    /* justify-content: space-around; */
 }
 .phim1 {
     background-color: rgb(13, 15, 17);
@@ -70,6 +70,8 @@ button {
     border: blue 1px;
     padding: 110px;
     margin: 1px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     cursor: pointer;
 }
@@ -81,6 +83,8 @@ button {
     border: blue 1px;
     padding: 110px;
     margin: 1px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     cursor: pointer;
 }
@@ -92,7 +96,10 @@ button {
     border: blue 1px;
     padding: 110px;
     margin: 1px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 .phimcangiua {
     display: block;

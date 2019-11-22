@@ -72,12 +72,12 @@ function filmID(id) {
                 </div>,
             </div>
             <div class="dienvien">
-                ${item.actor.map(actor => {
+                ${item.actor.map(act => {
                 return `<div class="khungdienvien">
-                    <img src="pic/angelina jolie.jpg" alt="actor" class="anhdienvien">
+                    <img src="${item.thumbnail}" alt="actor" class="anhdienvien">
                     <h3 class="vitri">
                         <form style="color:beige;"></form>
-                        <h4>${actor}</h4>
+                        <h4>${act}</h4>
                     </h3>
                 </div>`
             })}
