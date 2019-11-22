@@ -28,10 +28,12 @@
         <div class="heading">
             <h1 class="h1" onclick="backHome()">HOLLYHUS HOUSE</h1>
             <h3 class="h3">enjoy your favourite films</h3>
-            <div style="color: rgb(233, 110, 29);">
+            <div
+                style="color: rgb(233, 110, 29); display: flex; justify-content: center; align-items: center; margin: 8px 0;">
                 Tìm kiếm:
-                <input type="text" id="search" name="nhập tên phim">
-                <button onclick="onSearch()"><i class="fas fa-search"></i> Enter</button>
+                <input type="text" id="search" class="form-control" name="nhập tên phim"
+                    style="margin: 0 8px; width: 480px;">
+                <button type="button" class="btn btn-outline-primary" onclick="onSearch()">Search</button>
             </div>
         </div>
         </form>
