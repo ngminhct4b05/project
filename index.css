@@ -1,32 +1,37 @@
+#all_films {
+    width: 100% !important;
+}
+
 .header {
-  background: rgb(255, 255, 219);
-  font-style: italic;
+    background: rgb(255, 255, 219);
+    font-style: italic;
 }
 .heading {
-  color: rgb(183, 201, 201);
-  text-align: center;
-  font-size: 30;
+    color: rgb(183, 201, 201);
+    text-align: center;
+    font-size: 30;
 }
 .h1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: rgb(248, 9, 9);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(248, 9, 9);
+    cursor: pointer;
 }
 .h3 {
-  font-family: monospace;
-  color: rgb(233, 110, 29);
+    font-family: monospace;
+    color: rgb(233, 110, 29);
 }
 #dropdown {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
 
 button {
-  cursor: pointer;
-  color: lightcoral;
+    cursor: pointer;
+    color: lightcoral;
 }
 
 .dropdown1 {
@@ -61,32 +66,41 @@ button {
 .phim1 {
     background-color: rgb(13, 15, 17);
     font-family: cursive;
-    width: 115px;
+    width: 380px;
     border: blue 1px;
     padding: 120px;
     margin: 1px;
     align-items: center;
+    cursor: pointer;
 }
+
 .phim2 {
     background-color: rgb(13, 15, 17);
     font-family: cursive;
-    width: 115px;
+    width: 380px;
     border: blue 1px;
     padding: 120px;
     margin: 1px;
     align-items: center;
+    cursor: pointer;
 }
 .phim3 {
     background-color: rgb(13, 16, 17);
+    cursor: pointer;
     font-family: cursive;
-    width: 115px;
+    width: 380px;
     border: blue 1px;
     padding: 120px;
     margin: 1px;
     align-items: center;
 }
 .phimcangiua {
-  display: block;
-  margin-left: -50px;
-  margin-right: -50px;
+    display: block;
+    margin-left: -50px;
+    margin-right: -50px;
+    transition: transform 0.2s;
+}
+
+.phimcangiua:hover {
+    transform: scale(1.45);
 }
