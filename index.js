@@ -49,11 +49,14 @@ function onSearch() {
 }
 
 function onLoadData(id) {
-    console.log(id)
+    if (id === "home") {
+        window.location.reload()
+    }
 }
 function filmID(id) {
     data.map(item => {
         if (id === item.key) {
+            console.log(item.actor)
             dataID = item
             var html = `<div class="nentong">
             <div class="phimtong">
