@@ -1,10 +1,19 @@
 let data, idFilm, dataID;
 var container = document.getElementById('film')
 const idFilms = document.getElementById('films')
-var dataReceive =
-    fetch('https://dev-c4t-test.herokuapp.com/api/film')
-        .then(response => { return response.json() })
-        .then(json => { data = json })
+// var dataReceive =
+//     fetch('https://dev-c4t-test.herokuapp.com/api/film')
+//         .then(response => { return response.json() })
+//         .then(json => { data = json })
+
+function getData() {
+    $.ajax({
+        url: 'https://dev-c4t-test.herokuapp.com/api/film',
+        success: function (receiveData) {
+            data = receiveData
+        }
+    })
+}
 
 function onSearch() {
     const value = document.getElementById("search").value;
@@ -55,7 +64,7 @@ function onLoadData(id) {
 function filmID(id) {
     data.map(item => {
         if (id === item.key) {
-            console.log(item.actor)
+            console.log(item.thumbnail)
             dataID = item
             var html = `<div class="nentong">
             <div class="phimtong">
@@ -97,11 +106,5 @@ function filmID(id) {
 function backHome() {
     location.reload()
 }
-
-
-
-
-
-
 
 
