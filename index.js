@@ -10,7 +10,7 @@ function onSearch() {
     const value = document.getElementById("search").value;
     data.map(item => {
         const name = item.name_with_key.toLowerCase()
-        if (name === value) {
+        if (value === name) {
             var html = `<div class="nentong">
             <div class="phimtong">
                 <div class="img"><img src="${item.thumbnail}" alt="This is a picture"></div>
@@ -25,14 +25,14 @@ function onSearch() {
                 </div>,
             </div>
             <div class="dienvien">
-            ${item.actor.map(act => {
+                ${item.actor.map(act => {
                 return `<div class="khungdienvien">
-                <img src=${item.thumbnail} alt="actor" class="anhdienvien">
-                <h3 class="vitri">
-                    <form style="color:beige;"></form>
-                    <h4>${act}</h4>
-                </h3>
-            </div>`
+                    <img src="${item.thumbnail}" alt="actor" class="anhdienvien">
+                    <h3 class="vitri">
+                        <form style="color:beige;"></form>
+                        <h4>${act}</h4>
+                    </h3>
+                </div>`
             })}
         </div>
             <div class="phimnho">
@@ -40,10 +40,11 @@ function onSearch() {
                <h5>${item.content}</h5>
             </div>
         </div>`
-            container.insertAdjacentHTML("beforeend", html)
         }
-    })
 
+        container.insertAdjacentHTML("beforeend", html)
+
+    })
     document.getElementById("all_films").style.display = "none"
 }
 
@@ -71,14 +72,14 @@ function filmID(id) {
                 </div>,
             </div>
             <div class="dienvien">
-            ${item.actor.map(act => {
+                ${item.actor.map(act => {
                 return `<div class="khungdienvien">
-                <img src=${item.thumbnail} alt="actor" class="anhdienvien">
-                <h3 class="vitri">
-                    <form style="color:beige;"></form>
-                    <h4>${act}</h4>
-                </h3>
-            </div>`
+                    <img src="${item.thumbnail}" alt="actor" class="anhdienvien">
+                    <h3 class="vitri">
+                        <form style="color:beige;"></form>
+                        <h4>${act}</h4>
+                    </h3>
+                </div>`
             })}
         </div>
             <div class="phimnho">
