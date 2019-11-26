@@ -1,5 +1,6 @@
-let data, idFilm, dataID;
+let data, idFilm, dataID, dataChild;
 var container = document.getElementById('film')
+var childrenPage = document.getElementById("film_type")
 const idFilms = document.getElementById('films')
 // var dataReceive =
 //     fetch('https://dev-c4t-test.herokuapp.com/api/film')
@@ -20,7 +21,7 @@ function onSearch() {
     data.map(item => {
         const name = item.name_with_key.toLowerCase()
         if (value === name) {
-            var html = `<div class="nentong">
+            var html = `<div class="nentong" id="${item._id}">
             <div class="phimtong">
                 <div class="img"><img src="${item.thumbnail}" alt="This is a picture"></div>
                 <div class="ok">
@@ -50,7 +51,8 @@ function onSearch() {
             </div>
         </div>`
         }
-
+        // window.location.href = "children.html"
+        console.log(childrenPage)
         container.insertAdjacentHTML("beforeend", html)
 
     })
@@ -65,9 +67,9 @@ function onLoadData(id) {
 function filmID(id) {
     data.map(item => {
         if (id === item.key) {
-            console.log(item.thumbnail)
+
             dataID = item
-            var html = `<div class="nentong">
+            var html = `<div class="nentong" id="${item._id}">
             <div class="phimtong">
                 <div class="img"><img src="${item.thumbnail}" alt="This is a picture"></div>
                 <div class="ok">
@@ -101,11 +103,14 @@ function filmID(id) {
     })
     document.getElementById("all_films").style.display = "none"
     // location.href = 'phim.html'
+}
 
+function getDataChild() {
+    console.log(dataChild)
 }
 
 function backHome() {
-    location.reload()
+    location.href = "./index.html"
 }
 
 
